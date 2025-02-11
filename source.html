@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>ROKA AGENCY</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <p>ROKA STUDY AGENCY</p>
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li><i class='bx bx-home-alt bx-flip-horizontal bx-flashing' style='color:rgba(87, 125, 118, 0.493)' ></i><a href="index.html">Home</a></li>
+                <li><i class='bx bxs-info-circle bx-burst' style='color:#43608e' ></i><a href="about.html">About</a></li>
+                <li><i class='bx bx-task bx-burst' style='color:#43608e' ></i><a href="services.html">Services</a></li>
+                <li><i class='bx bxs-contact bx-burst' style='color:#43608e' ></i><a href="contact.html">Contact</a></li>
+                <li><i class='bx bxs-log-in bx-burst' style='color:#43608e' ></i><a href="connexion.html">Se connecter</a></li>
+            </ul>
+        </div>
+        <img src="menu.jpg" alt="menus" class="menu-hamburger"> 
+    </nav>
+    <header>
+
+    </header>
+    <script>
+    // Sélectionner le bouton menu hamburger et le menu
+    const menuHamburger = document.querySelector(".menu-hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    // Ajouter un événement de clic sur le bouton menu
+    menuHamburger.addEventListener("click", () => {
+        // Basculer la classe "mobile-menu" pour afficher ou masquer le menu
+        navMenu.classList.toggle("mobile-menu");
+    });
+        </script>
+       <footer>
+            <div class="container">
+            <div class="container-footer">
+            <div class="bloc footer-service">
+            <h3>Nos services</h3>
+            <ul class="Listt-services">
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Taux de reussite</a></li>
+                <li><a href="#">Accreditations</a></li>
+                <li><a href="#">Partenaires</a></li>
+                <li><a href="#">Realisations</a></li>
+            </ul>
+        </div>
+            <div class="bloc-footer-service">
+                <h3>Comment nous joindre</h3>
+                <p>+237 6********</p>
+                <p>rokatravel@gmail.com</p>
+                <p>Bonnamoussadi derriere IPPB</p>
+                <p>Yaoundé *****</p>
+                <p>Abidjan Rue *****</p>
+            </div>
+                <div class="boc footer-service">
+                    <h3>Nos horaires</h3>
+                    <ul class="horaires">
+                        <li>Lundi 9h-21h</li>
+                        <li>Mardi 9h-21h</li>
+                        <li>Mercredi 9h-21h</li>
+                        <li>Jeudi 9h-21h</li> 
+                        <li>Vendredi 9h-21h</li>
+                        <li>Samedi 10h-20h</li>
+                        <li>Dimanche Fermé</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </footer>
+    
+</body>
+</html>

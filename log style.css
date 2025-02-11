@@ -1,0 +1,111 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(ROKAS.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.contain{
+    width: 500px;
+    color: rgb(31, 105, 170);
+    border-radius: 01ch;
+    background:transparent;
+    backdrop-filter:blur(05px) ;
+}
+.contain h1{
+    text-align: center;
+    font-weight: 700;
+}
+.contain .input-box{
+    text-align: center;
+    min-height:08vh;
+}
+.input-box input{
+    width: 90%;
+   min-height: 05vh;
+border-radius: 5ch;
+border-color:transparent;
+font-size: 15px;
+padding: 2% 02% 0% 02%;
+
+}
+.input-box input::placeholder{
+color: rgb(36, 36, 206);
+font-size: 16px;
+text-align: center;
+
+}
+.input-box  i {
+    color: rgb(63, 22, 160);
+    position: absolute;
+    right: 350px;
+    transform: translateY(50%);
+    
+    
+}
+.contain .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: rgb(18, 14, 22);
+    margin-right: 10%;
+    margin-left: 05%;
+}
+.contain .btn {
+   width: 80%;
+   height: 45px;
+   border-radius: 45ch;
+   border-color: transparent;
+   box-shadow: #060606d6;
+   color: rgba(42, 108, 79, 0.595);
+   font-size: 20px;
+   font-weight: 600;
+   margin-left: 10%;
+}
+ .contain .register-link{
+    display: flex;
+   text-align: center;
+    color: black;
+    justify-content: space-between;
+}
+.contain .register-link p a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    justify-content: space-between;
+    margin-right: 50%;
+    margin-left: 90%;
+}
+/* Ajoutez ceci à la fin de votre fichier CSS */
+
+@media (max-width: 800px) {
+    .contain {
+        width: 40%;
+    }
+    .input-box  i {
+    color: rgb(63, 22, 160);
+    position: absolute;
+    right: 250px;
+    transform: translateY(50%);
+    }
+}
+@media (max-width: 500px) {
+    .contain {
+        width: 90%;
+    }
+    .input-box  i {
+    color: rgb(63, 22, 160);
+    position: absolute;
+    right: 80px;
+    transform: translateY(50%);
+    }
+}
